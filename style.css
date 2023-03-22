@@ -8,6 +8,7 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: #FFD07B;
 }
 
 nav{
@@ -92,7 +93,7 @@ a{
     font-size: 16px;
     color: #efae00;
     margin-bottom: 8px;
-    -webkit-text-stroke: 0.4px #efae00;
+    -webkit-text-stroke: 0.7px #efae00;
 }
 
 button {
