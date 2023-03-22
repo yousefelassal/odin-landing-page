@@ -339,3 +339,35 @@ h3{
 a:hover{
     color: #5f5c4f;
 }
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 128px 42px 42px 42px;
+    padding:20vh;
+}
+
+.quote{
+    font-size: 32px;
+    font-style: italic;
+    color: #296EB4;
+    font-weight: lighter;
+}
+
+.author{
+    font-size: 16px;
+    color: #296EB4;
+    font-weight: bold;
+    margin-left: 39vh;
+}
+
+.sign-up-form{
+    display: flex;
+    background-color: #B1740F;
+    margin: 42px;
+    border-radius: 12px;
+    padding:24px;
+}
+
