@@ -19,3 +19,16 @@ header{
     margin:0;
     padding: 0;
 }
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
