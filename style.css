@@ -45,3 +45,10 @@ a{
     color: rgb(18, 14, 0);
     font-weight: bold;
 }
+
+.container{
+    display: flex;
+    padding: 0 20vh;
+    gap: 20px;
+    padding-top: 24px;
+}
