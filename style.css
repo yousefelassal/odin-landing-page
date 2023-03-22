@@ -14,9 +14,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #efae00cc;
+    background-color: #efae00;
     height: 8vh;
-    margin:0;
+    border: 24px solid #efae00;
+    border-radius: 0 0 50px 50px;
     padding: 0;
 }
 
@@ -25,9 +26,9 @@ nav{
 }
 
 .logo img{
-    width: 50px;
+    width: 100px;
     height: auto;
-    margin-left: 10px;
+    padding-left: 20vh;
 }
 
 ul{
@@ -36,9 +37,11 @@ ul{
     margin: 0;
     padding: 0;
     gap: 20px;
+    padding-right: 20vh;
 }
 
 a{
     text-decoration: none;
     color: rgb(18, 14, 0);
+    font-weight: bold;
 }
