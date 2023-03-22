@@ -187,6 +187,9 @@ button {
 
    .box-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
    }
    
    .box{
@@ -194,8 +197,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 20px;
     background-color: white;
     border-radius: 12px;
@@ -276,13 +279,17 @@ button {
 
    .image-text-container {
     position: relative;
-    width: 50%;
+    width: 100%;
+    margin:0;
+    padding:0;
   }
   
   .image {
     display: flex;
     width: 100%;
     height: auto;
+    margin:0;
+    padding:0;
   }
   
   .overlay {
@@ -295,16 +302,16 @@ button {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #efae00;
+    background-color: #765600;
   }
   
   .image-text-container:hover .overlay {
-    opacity: 0.5;
+    opacity: 0.7;
   }
   
   .image-text {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -312,4 +319,22 @@ button {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    padding:0;
+    margin:0;
   }
+
+.box-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    margin:12px;
+    color: black;
+}
+
+a:hover{
+    color: #5f5c4f;
+}
