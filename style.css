@@ -345,7 +345,7 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 128px 42px 42px 42px;
+    margin: 128px 42px;
     padding:20vh;
 }
 
@@ -368,6 +368,13 @@ a:hover{
     background-color: #B1740F;
     margin: 42px;
     border-radius: 12px;
-    padding:24px;
+    padding:42px;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.form-text{
+    padding-left: 42px;
+    text-align: left;
+    color: white;
+}
